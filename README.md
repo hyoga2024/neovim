@@ -1,4 +1,4 @@
-tree ~/.confif/nvim
+tree ~/.config/nvim
 <pre>
 ~/.config/nvim
 ├── README.md
@@ -8,9 +8,9 @@ tree ~/.confif/nvim
     ├── config
     │   └── lazy.lua
     ├── my_snippets
-    │   └── latex.lua
+    │   └── tex.lua
     └── plugins
         ├── colorscheme.lua
-        ├── latex.lua
-        └── snippets.lua
+        ├── snippets.lua
+        └── tex.lua
 </pre>
