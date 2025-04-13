@@ -1,12 +1,16 @@
-tree ~/.config/nvim
-
+tree ~/.confif/nvim
 <pre>
-/home/hyoga/.config/nvim
+~/.config/nvim
+├── README.md
 ├── init.lua
 ├── lazy-lock.json
 └── lua
     ├── config
     │   └── lazy.lua
+    ├── my_snippets
+    │   └── latex.lua
     └── plugins
-        └── latex.lua
+        ├── colorscheme.lua
+        ├── latex.lua
+        └── snippets.lua
 </pre>
