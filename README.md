@@ -1,6 +1,6 @@
 ~/config/nvim/
-  ├── init.lua
-  └── lua
-      ├── config
-      │   └── lazy.lua
-      └── plugins
+├── init.lua
+└── lua
+    ├── config
+    │   └── lazy.lua
+    └── plugins
