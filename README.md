@@ -1,5 +1,7 @@
+tree ~/.config/nvim
+
 <pre>
-    /home/hyoga/.config/nvim
+/home/hyoga/.config/nvim
 ├── init.lua
 ├── lazy-lock.json
 └── lua
