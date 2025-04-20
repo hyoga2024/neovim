@@ -1,6 +1,5 @@
-tree ~/.config/nvim
 <pre>
-~/.config/nvim
+~/.config
 ├── README.md
 ├── init.lua
 ├── lazy-lock.json
@@ -11,6 +10,10 @@ tree ~/.config/nvim
     │   └── tex.lua
     └── plugins
         ├── colorscheme.lua
+        ├── comments.lua
         ├── snippets.lua
-        └── tex.lua
+        ├── tex.lua
+        └── treesitter.lua
 </pre>
+
+4 directories, 10 files
