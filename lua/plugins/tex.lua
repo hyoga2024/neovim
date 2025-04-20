@@ -6,7 +6,7 @@ return {
       -- コンパイラ設定
       vim.g.vimtex_compiler_method = "latexmk"
       vim.g.vimtex_compiler_latexmk = {
-        build_dir = "./out",
+        build_dir = "",
         callback = 1,
         continuous = 1,
         options = {
@@ -15,7 +15,6 @@ return {
           "-synctex=1",
           "-interaction=nonstopmode",
           "-pdfdvi",               -- 必要に応じて -pdf に変更
-          "-outdir=out",           -- 生成物を out/ に集める
         },
       }
 
