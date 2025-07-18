@@ -11,6 +11,9 @@
     └── plugins
         ├── colorscheme.lua
         ├── comments.lua
+        ├── completion.lua
+        ├── lsp.lua
+        ├── nvim-tree.lua
         ├── snippets.lua
         ├── tex.lua
         └── treesitter.lua
