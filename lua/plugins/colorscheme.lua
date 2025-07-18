@@ -1,10 +1,15 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    lazy = false,         -- 起動時にすぐ読み込む
-    priority = 1000,      -- カラースキームは優先して読み込みたい
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
     config = function()
-      vim.cmd.colorscheme("tokyonight")  -- カラースキームを設定
+      vim.o.termguicolors = true
+      require("catppuccin").setup({
+        flavour = "macchiato", -- "latte", "frappe", "macchiato", "mocha"
+        transparent_background = false,
+      })
+      vim.cmd.colorscheme("catppuccin")
     end,
   },
 }

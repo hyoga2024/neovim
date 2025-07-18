@@ -22,9 +22,10 @@ return {
 -- routine
 
     s("report", fmt([[
-\documentclass{{jsarticle}}
+\documentclass{{ltjsarticle}}
 
 \usepackage{{amsmath, amsfonts, enumitem}}
+\usepackage{{graphicx}}
 
 
 \begin{{document}}

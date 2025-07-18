@@ -1,7 +1,6 @@
 
 -- 行番号を表示
 vim.o.number = true
-vim.o.relativenumber = true
 
 -- インデント設定
 vim.o.tabstop = 4        -- タブ幅
@@ -20,7 +19,7 @@ vim.o.termguicolors = true  -- 24bit カラー有効
 vim.o.cursorline = true     -- カーソル行をハイライト
 vim.o.wrap = false          -- 行の折り返しを無効化
 
--- クリップボード連携（WSLでは別途対策必要）
+-- clipboard
 vim.o.clipboard = "unnamedplus"
 
 -- バックアップ無効化
