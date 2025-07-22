@@ -7,7 +7,7 @@ return {
     event = { "BufReadPost", "BufNewFile" },
     opts = {
       ensure_installed = {
-        "c", "cpp", "lua", "vim", "bash", "json", "python",
+        "c", "cpp", "lua", "vim", "bash", "json", "python"
       },
       auto_install = true,
       highlight = {

@@ -16,6 +16,7 @@
         ├── nvim-tree.lua
         ├── snippets.lua
         ├── tex.lua
+        ├── toggleterm.lua
         └── treesitter.lua
 </pre>
 

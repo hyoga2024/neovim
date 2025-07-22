@@ -31,7 +31,6 @@ vim.o.writebackup = false
 vim.o.cmdheight = 1
 
 
--- init.lua などでキー設定
 vim.keymap.set({ "i", "s" }, "<Tab>", function()
   return require("luasnip").expand_or_jumpable() and "<Plug>luasnip-expand-or-jump" or "<Tab>"
 end, { expr = true })
