@@ -9,9 +9,11 @@
     ├── my_snippets
     │   └── tex.lua
     └── plugins
+        ├── autopairs.lua
         ├── colorscheme.lua
         ├── comments.lua
         ├── completion.lua
+        ├── indent-blankline.lua
         ├── lsp.lua
         ├── nvim-tree.lua
         ├── snippets.lua
