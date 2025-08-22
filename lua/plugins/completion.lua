@@ -29,6 +29,7 @@ return {
         { name = "luasnip" },
         { name = "buffer" },
         { name = "path" },
+        { nmae = "vimtex" },
       }),
     })
   end,

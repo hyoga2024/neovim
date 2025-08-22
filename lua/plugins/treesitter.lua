@@ -7,7 +7,7 @@ return {
     event = { "BufReadPost", "BufNewFile" },
     opts = {
       ensure_installed = {
-        "c", "cpp", "lua", "vim", "bash", "json", "python"
+        "c", "cpp", "lua", "vim", "bash", "json", "python", "latex"
       },
       auto_install = true,
       highlight = {
@@ -16,7 +16,6 @@ return {
       indent = {
         enable = true,
       },
-      -- playgroundを有効にする（↓この行が追加される）
       playground = {
         enable = true,
         updatetime = 25,
@@ -28,7 +27,6 @@ return {
     end,
   },
 
-  -- playground プラグインの定義（TSPlaygroundToggleなどが使えるようになる）
   {
     "nvim-treesitter/playground",
     cmd = {
