@@ -1,4 +1,3 @@
-
 -- 行番号を表示
 vim.o.number = true
 
