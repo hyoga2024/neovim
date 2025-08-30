@@ -29,7 +29,7 @@ vim.o.writebackup = false
 -- コマンドラインの高さ
 vim.o.cmdheight = 1
 
-
+-- luasnipの設定
 vim.keymap.set({ "i", "s" }, "<Tab>", function()
   return require("luasnip").expand_or_jumpable() and "<Plug>luasnip-expand-or-jump" or "<Tab>"
 end, { expr = true })
