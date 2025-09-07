@@ -22,4 +22,3 @@
         └── treesitter.lua
 </pre>
 
-4 directories, 10 files
