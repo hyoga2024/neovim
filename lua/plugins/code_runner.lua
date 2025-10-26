@@ -3,9 +3,7 @@ return {
   config = function()
     require('code_runner').setup({
       filetype = {
-        cpp = {
-          "cd $dir && g++ -std=gnu++17 $fileName",
-        }
+        cpp = "cd $dir && g++ $fileName -o $dir/$fileNameWithoutExt && $dir/$fileNameWithoutExt",
       },
       mode = "term",
     })
