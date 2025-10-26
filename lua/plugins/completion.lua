@@ -23,6 +23,8 @@ return {
         ["<CR>"] = cmp.mapping.confirm({ select = true }),
         ["<C-n>"] = cmp.mapping.select_next_item(),
         ["<C-p>"] = cmp.mapping.select_prev_item(),
+        ["<C-f>"] = cmp.mapping.scroll_docs(4),   -- 下にスクロール
+        ["<C-d>"] = cmp.mapping.scroll_docs(-4),  -- 上にスクロール
       }),
       sources = cmp.config.sources({
         { name = "nvim_lsp" },

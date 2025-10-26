@@ -1,5 +1,7 @@
--- 行番号を表示
-vim.o.number = true
+-- 行番号の設定
+vim.opt.number = true          -- 現在行は絶対番号
+vim.opt.relativenumber = true  -- それ以外は相対番号
+
 
 -- インデント設定
 vim.o.tabstop = 4        -- タブ幅
@@ -37,6 +39,9 @@ end, { expr = true })
 vim.keymap.set({ "i", "s" }, "<S-Tab>", function()
   return require("luasnip").jumpable(-1) and "<Plug>luasnip-jump-prev" or "<S-Tab>"
 end, { expr = true })
+
+-- Code Runner
+vim.keymap.set("n", "<F5>", ":RunCode<CR>", { silent = true, desc = "Compile & run code" })
 
 
 -- read plugins from ~/.config/nvim/lua/config/lazy.lua
